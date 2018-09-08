@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Starter">
+	<meta name="author" content="Admin">
+	<title>Starter</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Sans+Pro:300" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/libs/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="js/libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="js/libs/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-2">
+						<a href="#" class="logo">
+							<img src="images/Bouncy.png" class="logo__img">
+						</a>
+					</div>
+					<div class="col-9 offset-1">
+						<ul class="menu">
+							<li class="menu__item"><a href="#" class="menu__link menu__link--active">Hello</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Team</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="general">
+            		<div class="title"><h1 class="text-title">We Are Code Cafe</h1></div>
+            		<div class="text"><p class="desc-title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p></div>
+            		<div class="scroll-link"><img src="images/scroll.png"></div>
+        		</div>
+			</div>
+		</div>
+	</header>
+	<section class="portfolio">
+		<div class="container">
+			<div class="row portfolio__list">
+				<div class="col-6 offset-3 portfolio__item  text-folio">
+					<h1 class="title">THE PORTFOLIO</h1>
+            		<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+				</div>
+			</div>
+        </div>
+        <div class="container tabs">
+        	<div class="row portfolio__list">
+        		<div class="col-6 offset-3 portfolio__item">
+        			<ul class="foliac-portfolio-menu">
+						<li class="menu__item"><a href="#" class="portfolio__link">All Works</a></li>
+						<li class="menu__item"><a href="#" class="portfolio__link">Print</a></li>
+						<li class="menu__item"><a href="#" class="portfolio__link">Branding</a></li>
+						<li class="menu__item"><a href="#" class="portfolio__link">Web</a></li>
+						<li class="menu__item"><a href="#" class="portfolio__link">HTML</a></li>
+					</ul>
+        		</div>
+        	</div>
+		</div>
+		<div class="portfolio-items all_works">
+			<div class="portfolio-item print">
+				<img src="images/bouncy-assets/img-1.jpg" alt="">
+				<img src="images/bouncy-assets/img-2.jpg" alt="">
+				<img src="images/bouncy-assets/img-3.jpg" alt="">
+			</div>
+			<div class="portfolio-item branding">
+				<img src="images/bouncy-assets/img-4.jpg" alt="">
+				<img src="images/bouncy-assets/img-5.jpg" alt="">
+				<img src="images/bouncy-assets/img-6.jpg" alt="">
+			</div>
+			<div class="portfolio-item web">
+				<img src="images/bouncy-assets/img-7.jpg" alt="">
+				<img src="images/bouncy-assets/img-8.jpg" alt="">
+				<img src="images/bouncy-assets/img-9.jpg" alt="">
+			</div>
+			<div class="portfolio-item lmth">
+				<img src="images/bouncy-assets/img-10.jpg" alt="">
+				<img src="images/bouncy-assets/img-11.jpg" alt="">
+				<img src="images/bouncy-assets/img-12.jpg" alt="">
+			</div>
+			
+		</div>
+
+	</section>
+
+	<div id="map"></div>
+
+	<!-- Scripts -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/libs/jquery-3.3.1.min.js"></script>
+	<script src="js/libs/masonry.4.2.2.min.js"></script>
+	<script src="js/libs/fancybox/jquery.fancybox.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+	<!-- LiveReload Script -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.portfolio {
+	&__list {
+		margin-top: 80px;
+	}
+
+	&__link {
+		text-decoration: none;
+		position: relative;
+		overflow: hidden;
+		color: #3a4450;
+		font: 16px/12px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: center;
+	}
+
+	&__text-folio {
+		text-align: center;
+	}
+		
+}
+
+.foliac-portfolio-menu {
+	display: flex;
+	justify-content: center;
+	flex-wrap: center;
+}
+
+.text-folio {
+	text-align: center;
+}
+
+.title {
+	font: 20px/12px;
+	color: #333b46;
+}
+
+.description {
+	font: 14px/25px;
+	color: #81868e;
+	padding-top: 40px;
+}
+
+.portfolio-items {
+	margin: 0 auto;
+}
